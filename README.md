@@ -99,3 +99,5 @@ This system is designed to help charitable organizations move beyond paper-based
 - Effective volunteer task and time tracking
 - Accurate, accessible financial reports
 - Transparency for donors, auditors, and stakeholders
+
+Figma Design - https://www.figma.com/proto/e3ElBQYFuE0Rr7iCk0CUWX/Untitled?page-id=6%3A495&node-id=6-640&p=f&viewport=577%2C572%2C0.2&t=aDaDZ57N1jc9Lags-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=6%3A640&show-proto-sidebar=1
