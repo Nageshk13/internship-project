@@ -40,9 +40,45 @@ This system is designed to help charitable organizations move beyond paper-based
 
  📈 Data Flow & Diagrams
 - Data Flow Diagram (DFD)
+  Purpose: Shows the flow of data between users, processes, and the system’s data stores.
+  
+  Entities:
+  1.Donor
+  2.Volunteer
+  3.Admin
+  
+  Processes:
+  1.Accept Donation
+  2.Register Donor / Volunteer
+  3.Assign Volunteer Task
+  4.Generate Financial Report
+  
+  Data Stores:
+  1.Donor Database
+  2.Volunteer Database
+  3.Financial Records
+  
+  Data Flows:
+  1.Donor provides details → Donation Process → Donor DB
+  2.Admin views donor/volunteer records → Reports
+  3.Volunteer logs hours → Volunteer DB
+
 - Sequence Diagram
 - System Architecture Diagram  
-(Available in project documentation)
+  Purpose: Describes the step-by-step interaction between users and the system during key operations.
+
+  Example: Donation Flow
+   Donor → Website: Submit Donation Form
+   Website → Server: Validate & Record Donation
+   Server → Database: Save Donation Data
+   Server → Email Service: Send Receipt
+   Email Service → Donor: Send Confirmation Email
+
+  Example: Volunteer Task Assignment
+   Admin → Website: Assign Task
+   Website → Server: Store Task Info
+   Server → Volunteer DB: Update Volunteer Record
+   Website → Volunteer: Display Task on Dashboard
 
  ✅ Test Cases
 | Test ID | Scenario Description | Expected Outcome |
